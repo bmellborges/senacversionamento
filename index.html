@@ -5,13 +5,31 @@
 </head>
 <body>
 	
-	<form>TESTANDO
-		<fieldset border="1"> 
-			<legend>
-				sei lá<input type="reset">
-			</legend>
-		</fieldset>
-	</form>
+	<form>
+                <fieldset>
+                  <legend>Dados Pessoais</legend>
+                  <div class="grupo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+                  </div>
+                  <div class="grupo">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu E-mail aqui">
+                  </div>
+                  <div class="grupo">
+                    <label for="nascimento">Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento" >
+                  </div>
+                  <div class="grupo">
+                    <label for="renda">Renda</label>
+                    <input type="number" name="renda" id="renda" placeholder="Coloque sua renda aqui" min="0" max="100000">
+                  </div>
+                  <div class="grupo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                  </div>
+                </fieldset>
+              </form>
 
 </body>
 </html>
